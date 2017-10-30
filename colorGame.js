@@ -1,5 +1,5 @@
 var color=randomColorGenerator(6);
-var colorpicked=color[Math.floor(Math.random()*6+1)];         
+var colorpicked=color[Math.floor(Math.random()*6)];         
 var squares=document.querySelectorAll(".square");
 var text=document.querySelector(".text");
 var reset=document.querySelector(".reset");
