@@ -18,7 +18,6 @@ for(var i=0;i<squares.length;i++){
     squares[i].style.background=color[i];
 console.log(color[i],"bg color",squares[i].style.backgroundColor);
     squares[i].addEventListener( "click", function(){
-
       var clickedcolor = this.style.backgroundColor;
       console.log("clickedcolor:",clickedcolor);
      if (clickedcolor===colorpicked){
