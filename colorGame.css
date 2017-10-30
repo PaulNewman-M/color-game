@@ -1,0 +1,19 @@
+body{
+	background-color: black;
+}
+h1{
+	color: white;
+}
+.square{
+	width:30%;
+	background: white;
+	padding-bottom: 30%;
+	margin:1.66%;
+	float:left;
+
+}
+.container{
+	margin:0 auto;
+	width:600px;
+
+}
